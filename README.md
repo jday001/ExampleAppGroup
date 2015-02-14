@@ -1,4 +1,6 @@
-This is an example project containing a very simple app in an App Group with an external settings app.
+## App Groups Example ##
+
+This is an example project containing a very simple App Group with 2 apps.
 
 Both apps can share an `NSUserDefaults` database, referenced by `suiteName`, the app group name.
 
