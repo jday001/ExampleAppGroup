@@ -18,8 +18,10 @@ App groups can be added in your project target's <b>Capabilities</b> section by 
 
 To reference the shared `NSUserDefaults`:
 
-    let APP_GROUP_SUITE: String = "group.com.jdayapps.examplegroup"
-    let suiteDefaults: NSUserDefaults = NSUserDefaults(suiteName: APP_GROUP_SUITE)!
+```swift
+let APP_GROUP_SUITE: String = "group.com.jdayapps.examplegroup"
+let suiteDefaults: NSUserDefaults = NSUserDefaults(suiteName: APP_GROUP_SUITE)!
+```
 
 
 ### Apple Documentation ###
